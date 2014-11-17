@@ -12,7 +12,7 @@ signalplusecho = [signal ; zeros(Te, 1)];   % array storing echo'd signal.
 for k = 1:L-1
     signalplusecho(k+Te) = signalplusecho(k + Te) + alpha .* signal(k);
 end
-
+ 
 wavwrite(signalplusecho, Fs, 8, '...');
 
 % Creating an echo in a sound file using convolution
