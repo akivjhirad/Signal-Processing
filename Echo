@@ -26,6 +26,6 @@ wavwrite(signalplusecho2, Fs, 8, '...');
 reverb = [1 ; zeros(10, 1)];
 for i = 2:10
     reverb(i*Te) = alpha^i;
-end
+end 
 signalplusreverb = conv(signal, reverb);
 wavwrite(signalplusreverb, Fs, 8, '...');
