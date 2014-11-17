@@ -34,7 +34,7 @@ xnT2 = sin(2*pi*f*nsound);
 subplot(4, 1, 2);
 plot(nplot, xnT2(1:length(nplot))); xlabel('time'); ylabel('amplitude');% Make the plot
 title('Question 2: frequency = 200 Hz');
-
+ 
 f = 400;
 xnT3 = sin(2*pi*f*nsound);
 subplot(4, 1, 3);
