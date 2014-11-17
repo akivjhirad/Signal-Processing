@@ -1,4 +1,4 @@
-Telecommunications
+Signal Processing
 ==================
 
-Simulation of telephone line signal transmittance with and without filtering / anti-alias practices
+Playing with audio and video files using Matlab
