@@ -1,4 +1,4 @@
 Signal Processing
 ==================
 
-Playing with audio and video files using Matlab
+Creating, testing, and altering audio and video files using Matlab
